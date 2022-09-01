@@ -23,36 +23,19 @@ struct CleanMainView: View {
                       await viewModel.fetch()
                     }
                 } label: {
-                    Text("fetch book data!")
-                        .fontWeight(.heavy)
-                        .padding()
-                        .background(Color.yellow)
-                        .cornerRadius(10)
+                    ButtonTextView()
                 }
             
             case .loading:
-                ProgressView()
-                    .padding(20)
-                    .background(Color.gray)
-                    .cornerRadius(15)
+                ProgressViewCustom()
                 
             case .error:
-                VStack {
-                    Image(systemName: "exclamationmark.triangle")
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.red)
-                    
-                    Text("Error while fetching!!!")
-                        .font(.title2)
-                        .foregroundColor(.red)
-                }
+                ErrorView()
                 
             case .success(let book):
                 BookInfoView(book: book)
             }
         }
-        
     }
 }
 

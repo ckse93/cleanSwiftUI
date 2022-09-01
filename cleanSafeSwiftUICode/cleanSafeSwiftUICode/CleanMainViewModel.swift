@@ -12,6 +12,8 @@ enum FetchStatus {
     case loading
     case error
     case success(Book)
+    case urlError
+    case noInternet
 }
 
 final class CleanMainViewModel: ObservableObject {
@@ -24,7 +26,7 @@ final class CleanMainViewModel: ObservableObject {
         do {
             let book = try await NetworkManager.fetchBookData()
             self.fetchStatus = .success(book)
-        } catch {
+        } catch(let error) {
             self.fetchStatus = .error
         }
     }

@@ -15,14 +15,17 @@ final class MessyMainViewModel: ObservableObject {
     @MainActor
     func fetch() async {
         self.isLoading = true
+        self.isError = false
+        self.bookData = nil
         do {
             let book = try await NetworkManager.fetchBookData()
             self.bookData = book
             isLoading = false
             isError = false
-        } catch {
+        } catch(let error) {
             isLoading = false
             isError = true
+            bookData = nil
         }
     }
 }

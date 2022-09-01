@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF76221428C03CC600D2D279 /* cleanSafeSwiftUICodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76221328C03CC600D2D279 /* cleanSafeSwiftUICodeApp.swift */; };
-		DF76221628C03CC600D2D279 /* MessyMainViewProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76221528C03CC600D2D279 /* MessyMainViewProblem.swift */; };
+		DF76221628C03CC600D2D279 /* MessyMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76221528C03CC600D2D279 /* MessyMainView.swift */; };
 		DF76221828C03CC700D2D279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF76221728C03CC700D2D279 /* Assets.xcassets */; };
 		DF76221B28C03CC700D2D279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF76221A28C03CC700D2D279 /* Preview Assets.xcassets */; };
 		DF76222228C03CEC00D2D279 /* MessyMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76222128C03CEC00D2D279 /* MessyMainViewModel.swift */; };
@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		DF76221028C03CC600D2D279 /* cleanSafeSwiftUICode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cleanSafeSwiftUICode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF76221328C03CC600D2D279 /* cleanSafeSwiftUICodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleanSafeSwiftUICodeApp.swift; sourceTree = "<group>"; };
-		DF76221528C03CC600D2D279 /* MessyMainViewProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessyMainViewProblem.swift; sourceTree = "<group>"; };
+		DF76221528C03CC600D2D279 /* MessyMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessyMainView.swift; sourceTree = "<group>"; };
 		DF76221728C03CC700D2D279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF76221A28C03CC700D2D279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF76222128C03CEC00D2D279 /* MessyMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessyMainViewModel.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				DF76221328C03CC600D2D279 /* cleanSafeSwiftUICodeApp.swift */,
-				DF76221528C03CC600D2D279 /* MessyMainViewProblem.swift */,
+				DF76221528C03CC600D2D279 /* MessyMainView.swift */,
 				DF76222B28C04A5700D2D279 /* CleanMainView.swift */,
 				DF76222928C043C400D2D279 /* BookInfoView.swift */,
 				DF76222128C03CEC00D2D279 /* MessyMainViewModel.swift */,
@@ -158,7 +158,7 @@
 				DF76222828C042E900D2D279 /* NetworkManager.swift in Sources */,
 				DF76222428C03E5C00D2D279 /* Book.swift in Sources */,
 				DF76222628C040B300D2D279 /* CleanMainViewModel.swift in Sources */,
-				DF76221628C03CC600D2D279 /* MessyMainViewProblem.swift in Sources */,
+				DF76221628C03CC600D2D279 /* MessyMainView.swift in Sources */,
 				DF76221428C03CC600D2D279 /* cleanSafeSwiftUICodeApp.swift in Sources */,
 				DF76222C28C04A5700D2D279 /* CleanMainView.swift in Sources */,
 				DF76222228C03CEC00D2D279 /* MessyMainViewModel.swift in Sources */,

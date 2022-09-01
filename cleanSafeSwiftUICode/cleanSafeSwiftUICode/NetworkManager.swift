@@ -11,7 +11,7 @@ final class NetworkManager {
     
     static func fetchBookData() async throws -> Book {
         try await Task.sleep(nanoseconds: 1_000_000_000)  // wait for 1 second to simulate some loading
-        
+        //"https://openlibrary.org/works/OL45883W.json"
         guard let url = URL(string: "https://openlibrary.org/works/OL45883W.json") else {
             throw NetworkManagerError.unableToMakeURL
         }
